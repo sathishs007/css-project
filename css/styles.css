@@ -1,5 +1,15 @@
 @media only screen and (max-width: 600px) {
-body{
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+    body{
     color: #40514E;
     margin: 0;
     text-align: center;
